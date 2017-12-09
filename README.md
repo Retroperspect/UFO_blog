@@ -15,10 +15,13 @@ You can reduce or even eliminate these problems by implementing monitoring for y
 ## Running in the dark
 - Expalin the problem better.
 - Explain how many people are running their system without actully knowing real time what goes in the system, and not realy knowing completely how the system functions or how well it performes.
->>>- Include a Qualitative method: Interview with a company who does not have monitoring
-- Expalin the censequence of running in the dark.
+
 
 ??? DO NOT MENTION MONITORING (THAT IS OUR SOLUTION)
+
+## Consequence of running in the dark
+>>>- Include a Qualitative method: Interview with a company who does not have monitoring
+- Expalin the censequence of running in the dark.
 
 ## Solution
 - Explain how to solve this issue = By doing monitoring!
