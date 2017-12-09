@@ -1,9 +1,6 @@
 # LSD Blog
 
-## UFO blog introduction
-In the current days digital age, our data usage has been growing at a rate that would put the singularity to shame. the demand for ways to store and access this ever growing demand has crippled programmers around the world, especially with the new trend of writing down every little detail of every person that traverse the internet, inorder for the big corperations sale targets.
-
-## The Problem
+## Abstract
 
 Relational databases can be detrimental to a systems functions, when not handling relational database data structures and queries correctly. 
 These issues also extend to things like select queries, insert queries, joining multiple tables and more.
@@ -26,6 +23,13 @@ Joining tables, Big table left join small table. Be mindfull of the size of each
 This will standardise database search speeds with ever growing datasets and will make alot of users happy. 
 It will also, increase the buttom line / monetery gain by a lot. It will also safeguard you from ever degrading performance.
 It will make the system alot safer by not allowing SQL Injections by hackers and it will also make the database size smaller and more managable.
+
+
+## UFO blog introduction
+In the current days digital age, our data usage has been growing at a rate that would put the singularity to shame. the demand for ways to store and access this ever growing demand has crippled programmers around the world, especially with the new trend of writing down every little detail of every person that traverse the internet, inorder for the big corperations sale targets.
+
+## The Problem
+
 
 ## Self Reflection
 
