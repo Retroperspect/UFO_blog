@@ -10,6 +10,7 @@
 ?# Extend by 2-5 lines (No more)
 
 ## Running in the dark
+- Expalin the problem better.
 - Explain how many people are running their system without actully knowing real time what goes in the system, and not realy knowing completely how the system functions or how well it performes.
 >>>- Include a Qualitative method: Interview with a company who does not have monitoring
 - Expalin the censequence of running in the dark.
