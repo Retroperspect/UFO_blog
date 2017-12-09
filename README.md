@@ -20,6 +20,8 @@
 - Explain how to solve this issue = By doing monitoring!
 - Explain prometheus and grafana and how they are good at doing monitoring
 >>>- Use Literature study to showcase how good prometheus and grafana is.
+- Prometheus and grafana tutorial
+
 
 ## Gains
 - Explain what to gain from monitoring = Bring in self reflection
