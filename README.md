@@ -3,6 +3,8 @@
 ## UFO blog introduction
 
 
+## The Problem
+
 Relational databases can be detrimental to a systems functions, when not handling relational database data structures and queries correctly. 
 These issues also extend to things like select queries, insert queries, joining multiple tables and more.
 This problem is especially harmfull when the dataset grows larger, and gets exponentially worse with size.
