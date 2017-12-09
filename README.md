@@ -1,7 +1,7 @@
 # LSD Blog
 
 ## UFO blog introduction
-
+In the current days digital age
 
 ## The Problem
 
@@ -27,9 +27,11 @@ This will standardise database search speeds with ever growing datasets and will
 It will also, increase the buttom line / monetery gain by a lot. It will also safeguard you from ever degrading performance.
 It will make the system alot safer by not allowing SQL Injections by hackers and it will also make the database size smaller and more managable.
 
-## Current day workarounds
+## Self Reflection
 
-## future solutions
+## Litterature study
+
+## Prototyping
 
 ## Conclusion
 
