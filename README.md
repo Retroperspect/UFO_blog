@@ -26,3 +26,6 @@
 
 ## Gains
 - Explain what to gain from monitoring = Bring in self reflection
+
+## Conclusion
+- Conclude that monitoring is pretty good and can aleviate alot of issues when it comes to knowing what the system does real time.
