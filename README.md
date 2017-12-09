@@ -1,7 +1,7 @@
 # LSD Blog
 
 ## UFO blog introduction
-In the current days digital age
+In the current days digital age, our data usage has been growing at a rate that would put the singularity to shame. the demand for ways to store and access this ever growing demand has crippled programmers around the world, especially with the new trend of writing down every little detail of every person that traverse the internet, inorder for the big corperations sale targets.
 
 ## The Problem
 
