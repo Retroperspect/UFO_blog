@@ -21,10 +21,16 @@
 - Expalin the censequence of running in the dark.
 
 ## Solution
-- Explain how to solve this issue = By doing monitoring!
-- Explain prometheus and grafana and how they are good at doing monitoring
->>>- Use Literature study to showcase how good prometheus and grafana is.
-- Prometheus and grafana tutorial
+There is more ways to solve this specific issue, but the most common and standard way in the industry is by doing real time monitoring. Monitoring can be setup with real time logging with the help of example: [ELK stack](https://www.elastic.co/webinars/introduction-elk-stack) or capturing important metrics. This solution is leaning towards capturing important metrics and displaying them in a graphical dashboard which can be watched. This way you can in realtime see changes to these metrics which can help inform of how the system is actully doing right this moment. Examples of these would be: How many requests does my website get. Or, How many threads are my program running. Or, How much space is left on the harddrive which my database is running. There is many other cases which this can be applied to. This will provide a good way to know exactly how every inch of a system is doing at any time.
+
+There is more ways to implement metrics monitoring, this solution will use prometheus in conjuction with grafana.
+- [Prometheus](https://prometheus.io/): A database good at treating time-series data.
+- [Grafana](https://grafana.com/): A User Interface good at representing time-series data in graphs.
+These implementations are open source and therefor free to use. 
+This is a guide for the solution: [Guide](https://github.com/vegasbrianc/prometheus)
+
+Is this solution a good one?. According to mutiny it is. They provide 6 reasons why IT monitoring is important to a business.
+[Mutiny's 6 reasons](https://www.mutiny.com/news/blogs/2016/6-reasons-why-IT-monitoring-and-reporting-is-important-to-your-business/)
 
 
 ## Gains
