@@ -1,5 +1,6 @@
 # LSD Blog
-UFO blog entry
+
+## UFO blog introduction
 
 
 Relational databases can be detrimental to a systems functions, when not handling relational database data structures and queries correctly. 
@@ -23,3 +24,10 @@ Joining tables, Big table left join small table. Be mindfull of the size of each
 This will standardise database search speeds with ever growing datasets and will make alot of users happy. 
 It will also, increase the buttom line / monetery gain by a lot. It will also safeguard you from ever degrading performance.
 It will make the system alot safer by not allowing SQL Injections by hackers and it will also make the database size smaller and more managable.
+
+## Current day workarounds
+
+## future solutions
+
+## Conclusion
+
