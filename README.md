@@ -3,8 +3,11 @@
 ## Abstract
 
 - Many system are breaking down or not functioning correctly without anyone knowing!
+System Failure is a commen issue related to human errors, The biggest errors are the ones you don't even realise are happening, as some system failures aren't so obvious to notice unlike the entire system is dead while your interacting with it, if this happened before anyone touched the system you wouldn't know when the issue appeared depending on your implementation of the system.
 - This leads to angry customers and disappointed developers, and monetary loose.
+Customers hate paying for broken promises, and corperations hate loosing customers and money on fixing these issues whenever they creep up, likewise depending on how curcial the system is for human lives, a system failure could lead to injury or even lose of human lives.
 - But by using prometheus in conjuction with grafana will solve this problem!
+You can reduce or even eliminate these problems by implementing monitoring for your system, using systems like Promethues and grafana, enables the developers to specify and monitor every angle of a system, which insures your able to know when the system is starting to experience issues or even alert you the moment the system reaches critical or none functional states.
 - It will help to monitor every inch of a system, and provide real time insight for developers in what the system is actully doing at all time
 
 ?# Extend by 2-5 lines (No more)
