@@ -19,6 +19,7 @@
 
 We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? We made a poll in a facebook group of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
 The question in the poll was:
+
 **Do you use monitoring and metrics ( with tools like New Relic, Grafana/Kibana) to the extent that you want in your IT systems?
 Although there are only advantages to have it implemented for both small and large systems. I suspect that it might not be implemented (in IT systems) for some reasons.**
 - Both yes and no. It depends on the project. (40 votes) 
