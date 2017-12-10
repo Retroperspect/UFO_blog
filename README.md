@@ -52,18 +52,19 @@ On the question: Have you IT-system ever one down or not functioned correctly wi
 
 #### How much insight would you say monitoring give to your IT-system?
 
-
 [![https://gyazo.com/c6426d753d94c6aec8aa1eef82755368](https://i.gyazo.com/c6426d753d94c6aec8aa1eef82755368.png)](https://gyazo.com/c6426d753d94c6aec8aa1eef82755368)
+**To the left - no insight. To the right - 100% insight.**
 
 #### Negatives with monitoring IT-systems
 
 [![https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e](https://i.gyazo.com/16d84f47ac77d11390037ceeda6d9b6e.png)](https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e)
-left some negative impact. Right no negative impact.
 
 Of those using monitor system 50% say they experince no negative impact haveing it implemented.
 50% answers it has some negative impact.
 
 [![https://gyazo.com/81731fa62d81b76f8628bbfe75417f08](https://i.gyazo.com/81731fa62d81b76f8628bbfe75417f08.png)](https://gyazo.com/81731fa62d81b76f8628bbfe75417f08)
+
+**To the left some negative impact. To the right no negative impact.**
 
 Giving the reason "overhead in maintenance" as the negative or con of using monitoring system.
 
