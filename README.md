@@ -17,7 +17,7 @@
 ??? DO NOT MENTION MONITORING (THAT IS OUR SOLUTION)
 ## What does our survey say about companies running in the dark?
 
-We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? How much insight does monitoring system give? We made a poll in a [facebook group](https://www.facebook.com/groups/utvecklare.stockholm/?ref=br_rs) of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
+We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? How much insight does monitoring system give? We made a poll in a [facebook group](https://www.facebook.com/groups/utvecklare.stockholm/about/) of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
 The question in the poll was:
 
 **Do you use monitoring and metrics ( with tools like New Relic, Grafana/Kibana) to the extent that you want in your IT systems?
