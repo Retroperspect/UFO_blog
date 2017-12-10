@@ -47,7 +47,7 @@ In our survey 80% says that they use some kind of monitoring systems like Grafan
 For those saying they dont use monitoring system "Lack of time" was the main reson why they haven’t implemented it.
 For those using monitoring 50% says they have been involved implementing monitor systems in their company.
 
-On the question: Have your IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
+On the question: Have your IT-system ever gone down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
 
 #### How much insight would you say monitoring give to your IT-system?
 
