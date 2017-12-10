@@ -85,7 +85,7 @@ Is this solution a good one?. According to mutiny it is. They provide 6 reasons 
  
  
 ## Gains 
-- From our own observation, the immediate gain from having a prometheus and grafana was the overview, although some tweaking for what data we saw was needed, seeing the systems performance and having warnings notify the phone about system crashes was a huge help.   
+From our own observation, the immediate gain from having a prometheus and grafana was the overview, although some tweaking for what data we saw was needed, seeing the systems performance and having warnings notify the phone about system crashes was a huge help.   
 Being able to both actively and passively monitor the systems performance ensured our systems uptime, as this was important for a above 95% uptime deal. By actively monitoring our systems performance, we noted that we slowly but surely weren't able to handle the amount of data we received, had it not been for monitoring we wouldn't have known this, and we wouldn't have been able to identify the issue was with the database, since we queried too much data too and from it.   
 The issue was a human flaw in our understanding of relational databases, as we asked the database for many queries that by our research should work, we did not take into account that the lack of Foreign keys would result in such extreme slowdown, as we didn't notice these issues from our initial testing with smaller sets of data.   
 Observing the performance enabled us to solve this and many other issues as they appeared, as anytime we observed abnormalities we would investigate the cause, with the help of monitoring we had a better idea of where these issues came from.   
@@ -93,6 +93,6 @@ One specific moment wasn't a issue in the general term, we observed from our tea
 Monitoring doesn't solve issues but it alerts the developers about the issues, we personally don't know how we would have found these issues as it's mostly not related to code, which is the primary way for programmers to debug issues, but the issues that appears where  when multiple systems interact with each other.   
  
 ## Conclusion 
-- System failures are the byproduct of human design as we humans are prone to produce errors without knowing it, in the current digital age this present problems, system failures can have minor impacts both financially and user satisfaction, or cripple corporations and even result in the lose of lives.   
+System failures are the byproduct of human design as we humans are prone to produce errors without knowing it, in the current digital age this present problems, system failures can have minor impacts both financially and user satisfaction, or cripple corporations and even result in the lose of lives.   
 Avoiding this as developers is our top priority, therefor the use of monitor systems like prometheus and grafana, is crucial for maintaining our system and avoiding future issues, or in the worst case stop the system before it does too much harm.   
 Another benefit from monitoring is learning from mistakes that haven't happened yet, you know the saying "A fool learns only from his own mistakes. A wise man learns from the mistakes of others." we learn from mistakes that haven't happened yet by monitoring. 
