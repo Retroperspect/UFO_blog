@@ -30,7 +30,7 @@ Although there are only advantages to have it implemented for both small and lar
 - No. We manage without. (2 votes)
 - No. We don't use monitoring because it made more damage than good. (1 vote)
 
-### Result from a Facebook poll
+### Result from the Facebook poll
 From our poll, the target group says they implement monitoring and metrics depending on the type of project. Second highest target group identified with the option implementing monitoring and metrics always and having full control of whats going on in their IT-systems.
 The image shows the result of the poll.
 
