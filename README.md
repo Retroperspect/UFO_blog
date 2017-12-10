@@ -18,6 +18,14 @@
 ## What does our survey say about companies running in the dark?
 
 We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? We made a poll in a facebook group of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
+The question in the poll was:
+**Do you use monitoring and metrics ( with tools like New Relic, Grafana/Kibana) to the extent that you want in your IT systems?
+Although there are only advantages to have it implemented for both small and large systems. I suspect that it might not be implemented (in IT systems) for some reasons.**
+- Both yes and no. It depends on the project. (40 votes) 
+- Yes. We always use monitoring and have control of what is going on in our IT systems. (21 votes)
+- No. We don't use monitoring but it would probably be good. (12 votes)
+- No. We manage without. (2 votes)
+- No. We don't use monitoring because it made more damage than good. (1 vote)
 
 ### Indication from a Facebook poll
 From our poll, the target group says they implement monitoring and metrics depending on the type of project. Second highest target group identified with the option implementing monitoring and metrics always and having full control of whats going on in their IT-systems.
