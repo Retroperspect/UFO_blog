@@ -42,7 +42,7 @@ Their experience was that monitoring isn’t just about pulling statistics but i
 
 We also did a survey to get further insights into how widley used monitoring is in companies.
 
-The survey was targeting professionals working within IT-companies. 
+The survey was targeting professionals working within IT-companies.¤ 
 In our survey 80% says that they use some kind of monitoring systems like Grafana/Kibana etc.
 For those saying they dont use monitoring system "Lack of time" was the main reson why they haven’t implemented it.
 For those using monitoring 50% says they have been involved implementing monitor systems in their company.
@@ -69,6 +69,8 @@ Giving the reason "overhead in maintenance" as the negative or con of using moni
 For those having monitoring systems implemented we asked which part of the system they thought was the most important to monitor:
 
 [![https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8](https://i.gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8.png)](https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8)
+
+*¤When writing this blogpost only 5 professionals has taken the survey. The statistics will be updated.
 ## Consequence of running in the dark
 >>>- Include a Qualitative method: Interview with a company who does not have monitoring
 - Expalin the censequence of running in the dark.
