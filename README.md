@@ -29,7 +29,7 @@ Although there are only advantages to have it implemented for both small and lar
 - No. We don't use monitoring because it made more damage than good. (1 vote)
 
 ### Result from the Facebook poll
-From our poll, the target group says they *mplement monitoring and metrics depending on the type of project*. Second highest target group identified with the option *always implementing monitoring and metrics, having full control of whats going on in their IT-system*.
+From our poll, the target group says they *implement monitoring and metrics depending on the type of project*. Second highest target group identified with the option *always implementing monitoring and metrics, having full control of whats going on in their IT-system*.
 The image shows the result of the poll.
 
 ![Facebook poll in a group for coders](/images/fb_poll.png)
@@ -47,7 +47,7 @@ In our survey 80% says that they use some kind of monitoring systems like Grafan
 For those saying they dont use monitoring system "Lack of time" was the main reson why they haven’t implemented it.
 For those using monitoring 50% says they have been involved implementing monitor systems in their company.
 
-On the question: Have you IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
+On the question: Have your IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
 
 #### How much insight would you say monitoring give to your IT-system?
 
@@ -56,8 +56,6 @@ On the question: Have you IT-system ever one down or not functioned correctly wi
 *To the left - no insight. To the right - 100% insight.*
 
 ### Negatives with monitoring IT-systems
-
-[![https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e](https://i.gyazo.com/16d84f47ac77d11390037ceeda6d9b6e.png)](https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e)
 
 Of those using monitor system 50% say they experince no negative impact haveing it implemented.
 50% answers it has some negative impact.
