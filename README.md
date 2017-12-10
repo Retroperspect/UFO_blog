@@ -50,7 +50,15 @@ For those saying they dont use monitoring system "Lack of time" was the main res
 
 On the question: Have you IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
 
+#### How much insight would you say monitoring give to your IT-system?
+
+
+[![https://gyazo.com/c6426d753d94c6aec8aa1eef82755368](https://i.gyazo.com/c6426d753d94c6aec8aa1eef82755368.png)](https://gyazo.com/c6426d753d94c6aec8aa1eef82755368)
+
+#### Negatives with monitoring IT-systems
+
 [![https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e](https://i.gyazo.com/16d84f47ac77d11390037ceeda6d9b6e.png)](https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e)
+left some negative impact. Right no negative impact.
 
 Of those using monitor system 50% say they experince no negative impact haveing it implemented.
 50% answers it has some negative impact.
