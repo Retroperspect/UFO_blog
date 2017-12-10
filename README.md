@@ -38,10 +38,11 @@ The image shows the result of the poll.
 
 
 When doing the poll we also got some feedback in the comments indicating that there seem to be developers that have passion and are experts in monitoring and metrics. We also got feedback that some IT-systems suffered from implementing monitoring. 
-Their experience was that monitoring isn’t just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, otherwise, it can have an opposite effect. Instead, the metrics can show data that lead in the wrong direction and takes time away from doing actual debugging.
-We also did a survey to get further insights into how widley used monitoring is in companies.
+Their experience was that monitoring isn’t just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, otherwise, it can have an opposite effect. Some people have experince of metrics showing data that lead in the wrong direction and taking time away from doing actual debugging.
 
 ### Indication from a survey targeting people having insight to IT-systems
+
+We also did a survey to get further insights into how widley used monitoring is in companies.
 
 The survey was targeting people working within IT-companies of whom 50%, when having a monitoring system, says they have been involved implementing monitor systems in their company.
 In our survey 80% says that they use some kind of monitoring systems like Grafana/Kibana etc.
