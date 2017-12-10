@@ -29,12 +29,12 @@ Although there are only advantages to have it implemented for both small and lar
 - No. We don't use monitoring because it made more damage than good. (1 vote)
 
 ### Result from the Facebook poll
-From our poll, the target group says they **implement monitoring and metrics depending on the type of project**. Second highest target group identified with the option *always implementing monitoring and metrics, having full control of whats going on in their IT-system*.
+From our poll, the target group says they *mplement monitoring and metrics depending on the type of project*. Second highest target group identified with the option *always implementing monitoring and metrics, having full control of whats going on in their IT-system*.
 The image shows the result of the poll.
 
 ![Facebook poll in a group for coders](/images/fb_poll.png)
 
-
+#### Feedback
 When doing the poll we also got some feedback in the comments indicating that there seem to be developers that have passion and are experts in monitoring and metrics. We also got feedback that some IT-systems suffered from implementing monitoring. 
 Their experience was that monitoring isn’t just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, it can have an opposite effect. One commented that their IT-system had experince of metrics showing data that lead in the wrong direction and taking time away from doing actual debugging.
 
@@ -42,9 +42,10 @@ Their experience was that monitoring isn’t just about pulling statistics but i
 
 We also did a survey to get further insights into how widley used monitoring is in companies.
 
-The survey was targeting people working within IT-companies of whom 50%, when having a monitoring system, says they have been involved implementing monitor systems in their company.
+The survey was targeting people working within IT-companies. 
 In our survey 80% says that they use some kind of monitoring systems like Grafana/Kibana etc.
 For those saying they dont use monitoring system "Lack of time" was the main reson why they haven’t implemented it.
+For those using monitoring 50% says they have been involved implementing monitor systems in their company.
 
 On the question: Have you IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
 
