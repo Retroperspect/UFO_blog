@@ -50,11 +50,18 @@ For those saying they dont use monitoring system "Lack of time" was the main res
 
 On the question: Have you IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
 
+[![https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e](https://i.gyazo.com/16d84f47ac77d11390037ceeda6d9b6e.png)](https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e)
+
 Of those using monitor system 50% say they experince no negative impact haveing it implemented.
 50% answers it has some negative impact.
 
+[![https://gyazo.com/81731fa62d81b76f8628bbfe75417f08](https://i.gyazo.com/81731fa62d81b76f8628bbfe75417f08.png)](https://gyazo.com/81731fa62d81b76f8628bbfe75417f08)
+
 Giving the reason "overhead in maintenance" as the negative or con of using monitoring system.
 
+For those having monitoring systems implemented we asked which part of the system they thought was the most important to monitor:
+
+[![https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8](https://i.gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8.png)](https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8)
 ## Consequence of running in the dark
 >>>- Include a Qualitative method: Interview with a company who does not have monitoring
 - Expalin the censequence of running in the dark.
