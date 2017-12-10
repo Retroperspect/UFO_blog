@@ -39,15 +39,15 @@ Their experience was that monitoring isn't just about pulling statistics but it 
 We also did a survey to get further insights into how monitoring is used in IT-companies. 
  
 The survey was targeting professionals working within IT-companies.¤  
-In our survey 80% says that they use some kind of monitoring systems like Grafana/Kibana etc. 
-For those saying they don't use monitoring system "Lack of time" was the main reason why they haven’t implemented it. 
+In our survey 75% says that they use some kind of monitoring systems like Grafana/Kibana etc. 
+For those saying they don't use monitoring system "Lack of time" (2 in total) was the main reason why they haven’t implemented it. 
 For those using monitoring 50% says they have been involved implementing monitor systems in their company. 
  
 On the question: Have your IT-system ever gone down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question. 
  
 #### How much insight would you say monitoring give to your IT-system? 
  
-[![https://gyazo.com/c6426d753d94c6aec8aa1eef82755368](https://i.gyazo.com/c6426d753d94c6aec8aa1eef82755368.png)](https://gyazo.com/c6426d753d94c6aec8aa1eef82755368) 
+[![https://gyazo.com/a2a08275bd63f29522a4c2d6dc99db6e](https://i.gyazo.com/a2a08275bd63f29522a4c2d6dc99db6e.png)](https://gyazo.com/a2a08275bd63f29522a4c2d6dc99db6e)
  
 *To the left - no insight. To the right - 100% insight.* 
  
@@ -56,18 +56,19 @@ On the question: Have your IT-system ever gone down or not functioned correctly 
 Of those using monitor system 50% say they experience no negative impact having it implemented. 
 50% answers it has some negative impact. 
  
-[![https://gyazo.com/81731fa62d81b76f8628bbfe75417f08](https://i.gyazo.com/81731fa62d81b76f8628bbfe75417f08.png)](https://gyazo.com/81731fa62d81b76f8628bbfe75417f08) 
+
+[![https://gyazo.com/6b9bb280f54f199592bdd46c06cf4f13](https://i.gyazo.com/6b9bb280f54f199592bdd46c06cf4f13.png)](https://gyazo.com/6b9bb280f54f199592bdd46c06cf4f13)
  
 *To the left some negative impact. To the right no negative impact.* 
  
-Giving the reason "overhead in maintenance" as the negative or con of using monitoring system. 
+Giving the reason "overhead in maintenance", "extra overhead" and "risk sending sensitive data when monitoring is outsourced" as the negative or con of using monitoring system. 
  
 For those having monitoring systems implemented we asked which part of the system they thought was the most important to monitor: 
  
-[![https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8](https://i.gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8.png)](https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8) 
+
+[![https://gyazo.com/6c5f35e5ca81aae4502bde08042e6122](https://i.gyazo.com/6c5f35e5ca81aae4502bde08042e6122.png)](https://gyazo.com/6c5f35e5ca81aae4502bde08042e6122)
  
- 
-*¤When writing this blog post only 6 professionals have taken the survey. The statistics will be updated. [Full survey](images/survey_results.pdf)* 
+*¤When writing this blog post only 8 professionals have taken the survey. The statistics will be updated. [Full survey](images/survey_results.pdf)* 
 ## Consequence of running in the dark 
 Neglecting your system can either result in no changes or critical failures, however knowing if either case applies is impossible to quantify, as you won't know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the system's lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things take focus in their work, but the worst case is developers too arrogant about their abilities to make "flawless" systems that they see no need to pay a close eye on their fully functional work.   
 Whatever your reasoning may be, it's important to remember that we as humans are prone to produce errors, and it's in our best interest to pay close attention to our own mistakes, so we can avoid problems with our systems. 
