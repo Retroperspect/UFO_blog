@@ -70,7 +70,7 @@ For those having monitoring systems implemented we asked which part of the syste
 
 [![https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8](https://i.gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8.png)](https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8)
 
-*¤When writing this blogpost only 5 professionals has taken the survey. The statistics will be updated.
+*¤When writing this blogpost only 5 professionals has taken the survey. The statistics will be updated.*
 ## Consequence of running in the dark
 >>>- Include a Qualitative method: Interview with a company who does not have monitoring
 - Expalin the censequence of running in the dark.
