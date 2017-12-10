@@ -66,7 +66,8 @@ For those having monitoring systems implemented we asked which part of the syste
  
 [![https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8](https://i.gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8.png)](https://gyazo.com/3babd0a3e5a4fcc1ab7fc0c5faf142b8) 
  
-*¤When writing this blog post only 6 professionals have taken the survey. The statistics will be updated.* 
+ 
+*¤When writing this blog post only 6 professionals have taken the survey. The statistics will be updated. [Full survey](images/survey_results.pdf)* 
 ## Consequence of running in the dark 
 Neglecting your system can either result in no changes or critical failures, however knowing if either case applies is impossible to quantify, as you won't know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the system's lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things take focus in their work, but the worst case is developers too arrogant about their abilities to make "flawless" systems that they see no need to pay a close eye on their fully functional work.   
 Whatever your reasoning may be, it's important to remember that we as humans are prone to produce errors, and it's in our best interest to pay close attention to our own mistakes, so we can avoid problems with our systems. 
