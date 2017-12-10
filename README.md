@@ -20,8 +20,6 @@
 We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? We made a poll in a facebook group of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
 The question in the poll was:
 
-### Question in poll
-
 **Do you use monitoring and metrics ( with tools like New Relic, Grafana/Kibana) to the extent that you want in your IT systems?
 Although there are only advantages to have it implemented for both small and large systems. I suspect that it might not be implemented (in IT systems) for some reasons.**
 - Both yes and no. It depends on the project. (40 votes) 
@@ -31,14 +29,14 @@ Although there are only advantages to have it implemented for both small and lar
 - No. We don't use monitoring because it made more damage than good. (1 vote)
 
 ### Result from the Facebook poll
-From our poll, the target group says they implement monitoring and metrics depending on the type of project. Second highest target group identified with the option implementing monitoring and metrics always and having full control of whats going on in their IT-systems.
+From our poll, the target group says they **implement monitoring and metrics depending on the type of project**. Second highest target group identified with the option *always implementing monitoring and metrics, having full control of whats going on in their IT-system*.
 The image shows the result of the poll.
 
 ![Facebook poll in a group for coders](/images/fb_poll.png)
 
 
 When doing the poll we also got some feedback in the comments indicating that there seem to be developers that have passion and are experts in monitoring and metrics. We also got feedback that some IT-systems suffered from implementing monitoring. 
-Their experience was that monitoring isn’t just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, otherwise, it can have an opposite effect. Some people have experince of metrics showing data that lead in the wrong direction and taking time away from doing actual debugging.
+Their experience was that monitoring isn’t just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, it can have an opposite effect. One commented that their IT-system had experince of metrics showing data that lead in the wrong direction and taking time away from doing actual debugging.
 
 ### Indication from a survey targeting people having insight to IT-systems
 
@@ -56,7 +54,7 @@ On the question: Have you IT-system ever one down or not functioned correctly wi
 
 **To the left - no insight. To the right - 100% insight.**
 
-#### Negatives with monitoring IT-systems
+### Negatives with monitoring IT-systems
 
 [![https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e](https://i.gyazo.com/16d84f47ac77d11390037ceeda6d9b6e.png)](https://gyazo.com/16d84f47ac77d11390037ceeda6d9b6e)
 
