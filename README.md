@@ -15,6 +15,33 @@
 
 
 ??? DO NOT MENTION MONITORING (THAT IS OUR SOLUTION)
+## What does our survey say about companies running in the dark?
+
+We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? We made a poll in a facebook group of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
+
+### Indication from a Facebook poll
+From our poll, the target group says they implement monitoring and metrics depending on the type of project. Second highest target group identified with the option implementing monitoring and metrics always and having full control of whats going on in their IT-systems.
+The image shows the result of the poll.
+
+![Facebook poll in a group for coders](/images/fb_poll.png)
+Format: ![Alt Text](url)
+
+When doing the poll we also got some feedback in the comments indicating that there seem to be developers that have passion and are experts in monitoring and metrics. We also got feedback that some IT-systems suffered from implementing monitoring. 
+Their experience was that monitoring isn’t just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, otherwise, it can have an opposite effect. Instead, the metrics can show data that lead in the wrong direction and takes time away from doing actual debugging.
+We also did a survey to get further insights into how widley used monitoring is in companies.
+
+### Indication from a survey targeting people having insight to IT-systems
+
+The survey was targeting people working within IT-companies of whom 50%, when having a monitoring system, says they have been involved implementing monitor systems in their company.
+In our survey 80% says that they use some kind of monitoring systems like Grafana/Kibana etc.
+For those saying they dont use monitoring system "Lack of time" was the main reson why they haven’t implemented it.
+
+On the question: Have you IT-system ever one down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question.
+
+Of those using monitor system 50% say they experince no negative impact haveing it implemented.
+50% answers it has some negative impact.
+
+Giving the reason "overhead in maintenance" as the negative or con of using monitoring system.
 
 ## Consequence of running in the dark
 >>>- Include a Qualitative method: Interview with a company who does not have monitoring
