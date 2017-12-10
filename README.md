@@ -35,7 +35,7 @@ Their experience was that monitoring isn’t just about pulling statistics but i
 
 ### Indication from a survey targeting professionals having insight to IT-systems
 
-We also did a survey to get further insights into how widley used monitoring is in companies.
+We also did a survey to get further insights into how monitoring is used in IT-companies.
 
 The survey was targeting professionals working within IT-companies.¤ 
 In our survey 80% says that they use some kind of monitoring systems like Grafana/Kibana etc.
