@@ -53,6 +53,7 @@ On the question: Have you IT-system ever one down or not functioned correctly wi
 #### How much insight would you say monitoring give to your IT-system?
 
 [![https://gyazo.com/c6426d753d94c6aec8aa1eef82755368](https://i.gyazo.com/c6426d753d94c6aec8aa1eef82755368.png)](https://gyazo.com/c6426d753d94c6aec8aa1eef82755368)
+
 **To the left - no insight. To the right - 100% insight.**
 
 #### Negatives with monitoring IT-systems
