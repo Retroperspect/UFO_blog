@@ -7,14 +7,9 @@
 - You can reduce or even eliminate these problems by implementing monitoring for your system, using systems like Promethues and grafana, enables the developers to specify and monitor every angle of a system, enabling you to identify current and new problems that appear as you develop your systems.
 - Monitoring your systems insures your ability to respond when the system is starting to experience issues or even alert you the moment the system reaches critical or none functional states, this enables better testing of the system and increases both user and corperations satisfaction.
 
-?# Extend by 2-5 lines (No more)
-
 ## Running in the dark
-- Expalin the problem better.
-- Explain how many people are running their system without actully knowing real time what goes in the system, and not realy knowing completely how the system functions or how well it performes.
+Running a system without monitoring is like ridding a caravan. You have a vague idea of what direction you want your system go, and you have a feel that it's going there as your running it, but imagine you where deaf to the horses complaining, unable to notice the horses slowed down, and you only would notice when they collapsed on the floor. Wheel on the wagon can break but the wagon can still run if theres enough support, but all these parts that can wear and tear can break at any moment without you knowing when or why. If you don't know what parts are slowing down or breaking you'll never react, but at the same time all parts could also run longer than the system is suppose to run, and then you'll never notice if paying attention was needed at all.
 
-
-??? DO NOT MENTION MONITORING (THAT IS OUR SOLUTION)
 ## What does our survey say about companies running in the dark?
 
 We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? How much insight does monitoring system give? We made a poll in a [facebook group](https://www.facebook.com/groups/utvecklare.stockholm/about/) of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes.
@@ -72,8 +67,8 @@ For those having monitoring systems implemented we asked which part of the syste
 
 *¤When writing this blogpost only 5 professionals has taken the survey. The statistics will be updated.*
 ## Consequence of running in the dark
->>>- Include a Qualitative method: Interview with a company who does not have monitoring
-- Expalin the censequence of running in the dark.
+Neglecting your system can either result in no changes or critical failures, however knowing if either cases applies is impossible to quantify, as you wont know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the systems lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things takes focus in thier work, but the worst case is developers too arrogant about thier abilities to make "flawless" systems that they see no need to pay a close eye on thier fully functional work.  
+Whatever your reasoning may be, it's important to remmeber that we as humans are prone to produce errors, and it's in our best interest to pay close attention to our own mistakes, so we can avoid problems with our systems.
 
 ## Solution
 There is more ways to solve this specific issue, but the most common and standard way in the industry is by doing real time monitoring. Monitoring can be setup with real time logging with the help of example: [ELK stack](https://www.elastic.co/webinars/introduction-elk-stack) or capturing important metrics. This solution is leaning towards capturing important metrics and displaying them in a graphical dashboard which can be watched. This way you can in realtime see changes to these metrics which can help inform of how the system is actully doing right this moment. Examples of these would be: How many requests does my website get. Or, How many threads are my program running. Or, How much space is left on the harddrive which my database is running. There is many other cases which this can be applied to. This will provide a good way to know exactly how every inch of a system is doing at any time.
