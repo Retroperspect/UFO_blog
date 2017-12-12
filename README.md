@@ -88,18 +88,42 @@ Examples of these would be:
 - How much space is left on the hard drive which my database is running?. This could be important to know if diskspace limitations are known.
 If ignoring one of these examples, it could potentially lead to: Customers unable to access website, backend slowing down or chrashing cause of hardware limitations, database chrash or not saving new data.
 
-
 There are many other cases which this can be applied to. This will provide a good way to know exactly how every inch of a system is doing at any time. 
  
 There are more ways to implement metrics monitoring, this solution will use Prometheus in conjunction with grafana. 
 - [Prometheus](https://prometheus.io/): A database good at treating time-series data. 
 >- The database comes with a feature that can call a http endpoint at ```ip:port.../metrics``` the metrics. 
->- The difference from platforms such as prometheus
+- Pros of prometheus: 
+>- It is open source, and therefore free
+>- It is not to troublesome to setup. (According to our experience)
+>- It can store alot of data without taking up much space. Key value storage.
+- Cons of prometheus:
+>- It is limited to time series data, this means it does not support logs.
+>- It is limited to HTTP, which can be slower than a level down: TCP
+>- Scaling becomes an issue in large developments[1]
+>- All metrics endpoints have to be reachable for the prometheus poller, implying a more elaborate secure network confugration.[1]
+We will be using prometheus to store metrics and to scrape metrics endpoints for that data to be saved.
+
 - [Grafana](https://grafana.com/): A User Interface good at representing time-series data in graphs. 
+[!](https://www.rittmanmead.com/blog/content/images/2017/01/05.-Prod-Performance-Analytics.png)
+>- Grafana is a Tool which setup a webapplication for use, to create dashboards to represent time series data in graphs. This will be the place to monitor the system.
+- Pros of Grafana
+>- It is opensource and therefor free to use.
+>- It is not to troublesome to setup (According to our experience)
+>- It is user friendly (Simplicity) [3]
+>- It has alot of features
+>- It has a big community [2]
+>- It has alot plug-ins available for use.
+>- It is supporting alot of different datasources (Prometheus included)
+>- It is nice to look at (According to us)
+- Cons of Grafana:
+>- It requires a good design to not screw up on how to represent the data.
+>- It requires time to setup dashboards
+>- 
 These implementations are open source and therefore free to use.  
 This is a guide for the solution: [Guide](https://github.com/vegasbrianc/prometheus) 
  
-Is this solution a good one?. According to mutiny, it is. They provide 6 reasons why IT monitoring is important to a business. 
+Is this monitoring a good solution?. According to mutiny, it is. They provide 6 reasons why IT monitoring is important to a business. 
 [Mutiny's 6 reasons](https://www.mutiny.com/news/blogs/2016/6-reasons-why-IT-monitoring-and-reporting-is-important-to-your-business/) 
  
  
@@ -115,3 +139,7 @@ Monitoring doesn't solve issues but it alerts the developers about the issues, w
 System failures are the byproduct of human design as we humans are prone to produce errors without knowing it, in the current digital age this present problem, system failures can have minor impacts both financially and user satisfaction, or cripple corporations and even result in the loss of lives.   
 Avoiding this as developers is our top priority, therefore the use of monitoring systems like Prometheus and grafana is crucial for maintaining a system and avoiding future issues, or in the worst case stop the system before it does too much harm.   
 Another benefit from monitoring is learning from mistakes that haven't happened yet, you know the saying "A fool learns only from his own mistakes. A wise man learns from the mistakes of others." we learn from mistakes that haven't happened yet by monitoring. With monitoring, you can to a sudden extend predict the future. 
+
+[1]:https://www.coscale.com/blog/prometheus-monitoring-pros-and-cons
+[2]:https://grafana.com/grafana/testimonials
+[3]:https://www.rittmanmead.com/blog/2017/01/time-series-visualisations-kibana-or-grafana/
