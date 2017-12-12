@@ -103,6 +103,7 @@ There are more ways to implement metrics monitoring, this solution which we will
 >- It is limited to time series data, this means it does not support logs.
 >- It is limited to HTTP, which can be slower than a level down: TCP
 >- Scaling becomes an issue in large developments 
+>- It is taking time to implement into the actual application to setup monitoring metrics and what should be exposed, a few metrics come out of the box. (In our experience, the most wanted metrics is custom ones you'll need to make)
 >- All metrics endpoints have to be reachable for the prometheus poller, implying a more elaborate secure network confugration.[1]
 >- It is taking up additional computational power (Potential ressource to run the actual service)
 We will be using prometheus to store metrics and to scrape metrics endpoints for that data to be saved.
