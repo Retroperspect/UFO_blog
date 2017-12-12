@@ -89,8 +89,10 @@ Examples of these would be:
 If ignoring one of these examples, it could potentially lead to: Customers unable to access website, backend slowing down or chrashing cause of hardware limitations, database chrash or not saving new data.
 
 There are many other cases which this can be applied to. This will provide a good way to know exactly how every inch of a system is doing at any time. 
+
+There are other monitoring which can come out of the box, an example of this is Digital ocean and amazon's cloudwatch monitoring systems. They are monitoring the VM's which is setup. However these do not monitor specific actions within the programs that are running in the machine. If per say, that an important metric is something that is only obtained by observing how a process is doing. We will have to implement a way for us to observce whats going on inside the process. This can be done in more ways than one.
  
-There are more ways to implement metrics monitoring, this solution will use Prometheus in conjunction with grafana. 
+There are more ways to implement metrics monitoring, this solution which we will present, will use Prometheus in conjunction with grafana. 
 - [Prometheus](https://prometheus.io/): A database good at treating time-series data. 
 >- The database comes with a feature that can call a http endpoint at ```ip:port.../metrics``` the metrics. 
 - Pros of prometheus: 
@@ -102,10 +104,11 @@ There are more ways to implement metrics monitoring, this solution will use Prom
 >- It is limited to HTTP, which can be slower than a level down: TCP
 >- Scaling becomes an issue in large developments[1]
 >- All metrics endpoints have to be reachable for the prometheus poller, implying a more elaborate secure network confugration.[1]
+>- It is taking up additional computational power (Potential ressource to run the actual service)
 We will be using prometheus to store metrics and to scrape metrics endpoints for that data to be saved.
 
 - [Grafana](https://grafana.com/): A User Interface good at representing time-series data in graphs. 
-[!](https://www.rittmanmead.com/blog/content/images/2017/01/05.-Prod-Performance-Analytics.png)
+![https://www.rittmanmead.com/blog/content/images/2017/01/05.-Prod-Performance-Analytics.png](https://www.rittmanmead.com/blog/content/images/2017/01/05.-Prod-Performance-Analytics.png)
 >- Grafana is a Tool which setup a webapplication for use, to create dashboards to represent time series data in graphs. This will be the place to monitor the system.
 - Pros of Grafana
 >- It is opensource and therefor free to use.
@@ -119,13 +122,15 @@ We will be using prometheus to store metrics and to scrape metrics endpoints for
 - Cons of Grafana:
 >- It requires a good design to not screw up on how to represent the data.
 >- It requires time to setup dashboards
->- 
+>- It is taking up additional computational power (Potential ressource to run the actual service)
+
 These implementations are open source and therefore free to use.  
 This is a guide for the solution: [Guide](https://github.com/vegasbrianc/prometheus) 
- 
+
 Is this monitoring a good solution?. According to mutiny, it is. They provide 6 reasons why IT monitoring is important to a business. 
 [Mutiny's 6 reasons](https://www.mutiny.com/news/blogs/2016/6-reasons-why-IT-monitoring-and-reporting-is-important-to-your-business/) 
- 
+
+However, these 6 reasons should be taken with a grain of salt. Mutiny is a company who sells monitoring systems to firefighters, security firms, average companies and more. But their opinions and reasoning is still very compelling, according to us.
  
 ## Gains 
 From our own observation during one of our own student project, having a Prometheus and grafana system setup gave a great overview, although some tweaking for what data we saw was needed. Seeing the system's performance and having warnings notify the phone about system crashes was a huge help.   
@@ -137,8 +142,8 @@ Monitoring doesn't solve issues but it alerts the developers about the issues, w
  
 ## Conclusion 
 System failures are the byproduct of human design as we humans are prone to produce errors without knowing it, in the current digital age this present problem, system failures can have minor impacts both financially and user satisfaction, or cripple corporations and even result in the loss of lives.   
-Avoiding this as developers is our top priority, therefore the use of monitoring systems like Prometheus and grafana is crucial for maintaining a system and avoiding future issues, or in the worst case stop the system before it does too much harm.   
-Another benefit from monitoring is learning from mistakes that haven't happened yet, you know the saying "A fool learns only from his own mistakes. A wise man learns from the mistakes of others." we learn from mistakes that haven't happened yet by monitoring. With monitoring, you can to a sudden extend predict the future. 
+Avoiding this as developers is our top priority, therefore the use of monitoring systems like Prometheus and grafana is indicating that, it is crucial for maintaining a system and avoiding future issues, or in the worst case stop the system before it does too much harm.   
+Another benefit from monitoring is learning from mistakes that haven't happened yet, you know the saying "A fool learns only from his own mistakes. A wise man learns from the mistakes of others." we learn from mistakes that haven't happened yet by monitoring. With monitoring, you can to a certain extend predict the future. 
 
 [1]:https://www.coscale.com/blog/prometheus-monitoring-pros-and-cons
 [2]:https://grafana.com/grafana/testimonials
