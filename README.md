@@ -99,10 +99,10 @@ There are more ways to implement metrics monitoring, this solution which we will
 >- It is open source, and therefore free
 >- It is not to troublesome to setup. (According to our experience)
 >- It can store alot of data without taking up much space. Key value storage.
-- Cons of prometheus:
+- Cons of prometheus: [1]
 >- It is limited to time series data, this means it does not support logs.
 >- It is limited to HTTP, which can be slower than a level down: TCP
->- Scaling becomes an issue in large developments[1]
+>- Scaling becomes an issue in large developments 
 >- All metrics endpoints have to be reachable for the prometheus poller, implying a more elaborate secure network confugration.[1]
 >- It is taking up additional computational power (Potential ressource to run the actual service)
 We will be using prometheus to store metrics and to scrape metrics endpoints for that data to be saved.
@@ -110,12 +110,12 @@ We will be using prometheus to store metrics and to scrape metrics endpoints for
 - [Grafana](https://grafana.com/): A User Interface good at representing time-series data in graphs. 
 ![https://www.rittmanmead.com/blog/content/images/2017/01/05.-Prod-Performance-Analytics.png](https://www.rittmanmead.com/blog/content/images/2017/01/05.-Prod-Performance-Analytics.png)
 >- Grafana is a Tool which setup a webapplication for use, to create dashboards to represent time series data in graphs. This will be the place to monitor the system.
-- Pros of Grafana
+- Pros of Grafana [2] [3]
 >- It is opensource and therefor free to use.
 >- It is not to troublesome to setup (According to our experience)
->- It is user friendly (Simplicity) [3]
+>- It is user friendly (Simplicity) 
 >- It has alot of features
->- It has a big community [2]
+>- It has a big community 
 >- It has alot plug-ins available for use.
 >- It is supporting alot of different datasources (Prometheus included)
 >- It is nice to look at (According to us)
