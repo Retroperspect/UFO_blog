@@ -99,6 +99,8 @@ There are more ways to implement metrics monitoring, this solution which we will
 >- It is open source, and therefore free
 >- It is not to troublesome to setup. (According to our experience)
 >- It can store alot of data without taking up much space. Key value storage.
+>- Easy to use
+>- Reliable when setup
 - Cons of prometheus: [1]
 >- It is limited to time series data, this means it does not support logs.
 >- It is limited to HTTP, which can be slower than a level down: TCP
