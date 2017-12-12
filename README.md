@@ -133,7 +133,9 @@ This is a guide for the solution: [Guide](https://github.com/vegasbrianc/prometh
 Is this monitoring a good solution?. According to mutiny, it is. They provide 6 reasons why IT monitoring is important to a business. 
 [Mutiny's 6 reasons](https://www.mutiny.com/news/blogs/2016/6-reasons-why-IT-monitoring-and-reporting-is-important-to-your-business/) 
 
-However, these 6 reasons should be taken with a grain of salt. Mutiny is a company who sells monitoring systems to firefighters, security firms, average companies and more. But their opinions and reasoning is still very compelling, according to us.
+However, these 6 reasons should be taken with a grain of salt. Mutiny is a company who sells monitoring systems to firefighters, security firms, average companies and more. But their opinions and reasoning is still very compelling, according to us.  
+
+Monitoring seems essential when you take everyday metaphors as examples, but it ain't so simple in reality, monitoring can also give you the wrong information even when you set it up perfectly, as the metric can be full of errors resulting in even more damage, when you trust the monitoring system too much. Everything has to be handled with care, and monitoring is another step in a chain of systems, that can be affected by human error on a daily basis, it's important to remmeber that monitoring can be as good and bad as you make it, and it's by your own hand that the system supports or undermines your operation.
  
 ## Gains 
 From our own observation during one of our own student project, having a Prometheus and grafana system setup gave a great overview, although some tweaking for what data we saw was needed. Seeing the system's performance and having warnings notify the phone about system crashes was a huge help.   
