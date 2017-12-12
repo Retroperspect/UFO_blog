@@ -9,7 +9,7 @@
 - Monitoring your systems ensures your ability to respond when the system is starting to experience issues or even alert you the moment the system reaches critical or none functional states. This enables better testing of the system and increases both user and corporations satisfaction. 
  
 ## Running in the dark 
-Running a system without monitoring is like riding a caravan. You have a vague idea of what direction you want your system to go in, and you have a feeling that it's going there as your running it. But imagine you were deaf to the horses complaining, unable to notice the horses slowed down, and you only would notice when they collapsed on the floor. The wheel on the wagon can break but the wagon can still run if there's enough support, but all these parts that can wear and tear can break at any moment without you knowing when or why. If you don't know what parts are slowing down or breaking you'll never react, but at the same time all parts could also run longer than the system is supposed to run, and then you'll never notice if paying attention was needed at all. 
+Running in the dark is a made up term which describes the problem that is, to do something without observing. Running a system without monitoring is like riding a caravan. You have a vague idea of what direction you want your system to go in, and you have a feeling that it's going there as your running it. But imagine you were deaf to the horses complaining, unable to notice the horses slowed down, and you only would notice when they collapsed on the floor. The wheel on the wagon can break but the wagon can still run if there's enough support, but all these parts that can wear and tear can break at any moment without you knowing when or why. If you don't know what parts are slowing down or breaking you'll never react, but at the same time all parts could also run longer than the system is supposed to run, and then you'll never notice if paying attention was needed at all. 
  
 ## What does our survey say about companies running in the dark? 
  
@@ -72,12 +72,29 @@ For those having monitoring systems implemented we asked which part of the syste
 ## Consequence of running in the dark 
 Neglecting your system can either result in no changes or critical failures, however knowing if either case applies is impossible to quantify, as you won't know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the system's lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things take focus in their work, but the worst case is developers too arrogant about their abilities to make "flawless" systems that they see no need to pay a close eye on their fully functional work.   
 Whatever your reasoning may be, it's important to remember that we as humans are prone to produce errors, and it's in our best interest to pay close attention to our own mistakes, so we can avoid problems with our systems. 
+
+Another consequence is if you have a agreement with another company it is important to be able to proof their requiorements are meet. Without being able to observce if the requirements are meet, you will not be able to proof it. This is typically important if a Service level agreement has been made. Then it is especially important to be able to proof their requirements are meet, which is very hard if not observed.
  
 ## Solution 
-There are more ways to solve this specific issue, but the most common and standard way in the industry is by doing real-time monitoring. Monitoring can be set up with real-time logging with the help of an example: [ELK stack](https://www.elastic.co/webinars/introduction-elk-stack) or capturing important metrics. The solution that we will look at here is leaning towards capturing important metrics and displaying them in a graphical dashboard which can be watched. This way you can in real time see changes to these metrics which can help inform of how the system is actually doing right this moment. Examples of these would be: How many requests does my website get. Or, How many threads are my program running. Or, How much space is left on the hard drive which my database is running? There are many other cases which this can be applied to. This will provide a good way to know exactly how every inch of a system is doing at any time. 
+There are more ways to solve this specific issue, but the most common and standard way in the industry is by doing real-time monitoring. Monitoring can be set up with real-time logging with the help of an example: [ELK stack](https://www.elastic.co/webinars/introduction-elk-stack) or capturing important metrics. 
+
+Important metrics vary from company to company, in some cases a service level agreement can be made. To solidify if requirements are meet or not. This way you can monitor the customers requirements and this way proof they are meet. Otherwise it is up to the development team to choose which metrics are important. This can potentialy lead to some cons of monitoring. If not handled correctly, alot of noise can be created. A surplus of unimportant metrics, false alarms and more can create alot of noise and actully diverge ressources from actual debugging or other important work, such as development of another important feature. This con is typically present when developers with low experience in monitoring implementing it.
+
+The specific solution that we will look at here is leaning towards capturing important metrics and displaying them in a graphical dashboard which can be watched. This way you can in real time see changes to these metrics which can help inform of how the system is actually doing right this moment. 
+
+Examples of these would be: 
+- How many requests does my website get. This could be important to know when to scale up, if performance limitations are known.
+- How many threads are my program running. This could be important to know when to scale up, if hardware limitations are known.
+- How much space is left on the hard drive which my database is running?. This could be important to know if diskspace limitations are known.
+If ignoring one of these examples, it could potentially lead to: Customers unable to access website, backend slowing down or chrashing cause of hardware limitations, database chrash or not saving new data.
+
+
+There are many other cases which this can be applied to. This will provide a good way to know exactly how every inch of a system is doing at any time. 
  
 There are more ways to implement metrics monitoring, this solution will use Prometheus in conjunction with grafana. 
 - [Prometheus](https://prometheus.io/): A database good at treating time-series data. 
+>- The database comes with a feature that can call a http endpoint at ```ip:port.../metrics``` the metrics. 
+>- The difference from platforms such as prometheus
 - [Grafana](https://grafana.com/): A User Interface good at representing time-series data in graphs. 
 These implementations are open source and therefore free to use.  
 This is a guide for the solution: [Guide](https://github.com/vegasbrianc/prometheus) 
