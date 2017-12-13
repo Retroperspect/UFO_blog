@@ -12,17 +12,14 @@
 Running in the dark is a made up term which describes the problem that is, to do something without observing. Running a system without monitoring is like riding a caravan. You have a vague idea of what direction you want your system to go in, and you have a feeling that it's going there as your running it. But imagine you were deaf to the horses complaining, unable to notice the horses slowed down, and you only would notice when they collapsed on the floor. The wheel on the wagon can break but the wagon can still run if there's enough support, but all these parts that can wear and tear can break at any moment without you knowing when or why. If you don't know what parts are slowing down or breaking you'll never react, but at the same time all parts could also run longer than the system is supposed to run, and then you'll never notice if paying attention was needed at all. 
  
 ## What does IT-professionals out there say about running in the dark? 
-Before starting the Large System Development course we personally were in "the dark" when it came to monitoring IT-systems.
-During the course we were introduced to the tools Prometheus for collecting metrics and Grafana for visualising and monitoring which we all thought were very usefull to us. 
-We were curious to know wheather others take the time and effort to do monitoring of their IT-systems? Do they get the insight they want?
-As we are new to this topic it's easy to get enthusiastic. Who wouldn't want to monitor and peak into every part of the IT-system?
-//We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? 
-How much insight does monitoring system give? We made a poll on a [Facebook group](https://www.facebook.com/groups/utvecklare.stockholm/about/) of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes. 
-The way we went forward getting answers to our questions was asking those questions in our own network of professionals in the field. 
+Before we were introduced to Prometheuss and Grafana in the Large System Development course we were in "the dark" when it came to monitoring IT-systems.
+We were curious to know what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? 
+How much insight does monitoring system give? 
+We decided to ask the question in our network of IT-professionals to get an indication on how it look out there in the "real world".
 
-
-
+We made a poll on a [Facebook group](https://www.facebook.com/groups/utvecklare.stockholm/about/) of 13247 coders many of whom work as software developers in Sweden. We got almost 100 votes. 
 The we also sent out a survey to people we knew worked within IT in our network (Facebook and LinkedIn)
+Our purpose of both the the Facebook poll and the survey was to put a couple of assumption to test rather than collect of information.
 
 
 The question in the poll was: 
@@ -39,16 +36,15 @@ In the question I put "only advantages" because this was something that provoked
 The second statement "Yes. We always use monitoring and have control of what is going on in our IT systems". There seems to be people that think they have 100% control of everything. 
 "No. We don't use monitoring but it would probably be good." This was us before we went through the Large system course.
 "No. We manage without."
-"No. We don't use monitoring because it made more damage than good." Wasn't planned but added after a discussion with.
+"No. We don't use monitoring because it made more damage than good." 
 
 ![Facebook poll in a group for coders](/images/fb_poll.png) 
 
 #### Feedback 
 When doing the poll we also got some feedback in the comments indicating that there seem to be developers that have passion and are experts in monitoring and metrics. We also got feedback that some IT-systems suffered from implementing monitoring.  
-Their experience was that monitoring isn't just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, it can have an opposite effect. One commented that their IT-system had experience of metrics showing data that lead in the wrong direction and taking time away from doing actual debugging. 
+Their experience was that monitoring isn't just about pulling statistics but it is a matter of choosing wisely and even taking in experts to get it right otherwise, it can have an opposite effect. One commented that their IT-system had experience of metrics showing data that lead in the wrong direction and taking time away from doing actual debugging. This feedback was the reason we had the option "No. We don't use monitoring because it made more damage than good.".
   
 ### Conclusion of the Facebook poll 
-First the Facebook poll has little value as information source but it is more a easy way of putting an assumption t test.
 From our poll, the target group says they *implement monitoring and metrics depending on the type of project*. 
 This is kind of a neutral passion and logically the more reasonable answer. Monitoring takes knowledge/time even expertise and resources to implement. It would be natural to make an assessment of the IT-project to analyse the hoe much montoring would give value copared to the cost***
 Second highest target group identified with the option *always implementing monitoring and metrics, having full control of what's going on in their IT-system*. 
