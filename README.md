@@ -32,13 +32,13 @@ Although there are "only advantages" to have it implemented for both small and l
 - No. We manage without. (2 votes) 
 - No. We don't use monitoring because it made more damage than good. (1 vote) 
  
-In the question I put "only advantages" because this was something that provoked me. All articles and student were pushing for monitoring without giving any reason why not to use it. Are there only advantages?
-The second statement "Yes. We always use monitoring and have control of what is going on in our IT systems". There seems to be people that think they have 100% control of everything. 
+The reason for "only advantages" i that [Mutiny's 6 reasons](https://www.mutiny.com/news/blogs/2016/6-reasons-why-IT-monitoring-and-reporting-is-important-to-your-business/) 
+where the article is very bias to monitoring.
+The second statement "Yes. We always use monitoring and have full control of what is going on in our IT systems". This satment seems to fit those that taking monitoring very serious. 
 "No. We don't use monitoring but it would probably be good." This was us before we went through the Large system course.
 "No. We manage without."
 "No. We don't use monitoring because it made more damage than good." 
 
-![Facebook poll in a group for coders](/images/fb_poll.png) 
 
 #### Feedback 
 When doing the poll we also got some feedback in the comments indicating that there seem to be developers that have passion and are experts in monitoring and metrics. We also got feedback that some IT-systems suffered from implementing monitoring.  
@@ -46,13 +46,14 @@ Their experience was that monitoring isn't just about pulling statistics but it 
   
 ### Conclusion of the Facebook poll 
 From our poll, the target group says they *implement monitoring and metrics depending on the type of project*. 
-This is kind of a neutral passion and logically the more reasonable answer. Monitoring takes knowledge/time even expertise and resources to implement. It would be natural to make an assessment of the IT-project to analyse the hoe much montoring would give value copared to the cost***
+This is kind of a neutral passion and logically the more reasonable answer. Monitoring takes knowledge, time, expertise and resources to implement. It would be natural to make an assessment of the IT-project to analyse value in relation to cost.
 Second highest target group identified with the option *always implementing monitoring and metrics, having full control of what's going on in their IT-system*. 
-At least one of the guys worked as a monitoring expert. I find the answer interesting. 25% take the monitoring serious and always implements. 
+At least one of the voters worked as a monitoring expert. I find the answer interesting. 25% take the monitoring serious and always implements it. 
 "No. We don't use monitoring but it would probably be good." This was us before we went through the Large system course.
 "No. We manage without." I would say those last ones are the ones running in the dark. 
-The poll might not mirror the actually ratio. It's voluntarily to vote and monitoring experts might vote whereas those never heard of Grafana would not votes (in the dark)
+The poll might not mirror the actually ratio. It's voluntarily to vote and monitoring experts might vote whereas those never heard of Promethius would not votes (in the dark)
 The image shows the result of the poll. 
+![Facebook poll in a group for coders](/images/fb_poll.png) 
  
 
 ### Indication from a survey targeting professionals having insight to IT-systems 
@@ -92,19 +93,19 @@ For those having monitoring systems implemented we asked which part of the syste
 *¤When writing this blog post only 8 professionals have taken the survey. The statistics will be updated. [Full survey](images/survey_results.pdf)* 
 
 ### When does Monitoring depending on project - conclusion from the survey
-There are sertain projectors where monitoring is a best practise. 
-For example control intensive application. If you have made risk assessments that indicates. 
-The where also best practise to use micro services and large systems.
-From the survey we can conclude that all that has answer their IT-system are Large System 100% use monitoring system.
-Not everyone using montor system scale their system as a Large system.
+There are certain projectors where monitoring is a best practise.
+For example control intensive application. If you have made risk assessments that indicates monitoring adds value. 
+Micro services and large systems are some we talked about during the course.
+From the survey we can conclude that from those scaling their IT-system as a Large System 100% use monitoring system.
+Not everyone using monitor system scale their system as a Large system.
 From those that say they don't use monitoring systems they scale their IT-system as moderate.
 How important is it for your company to have complete visibility of all of your hardware and software assets?
-Does your system once in a while need to have a downtime due to maintenance? ( In combination of fluctiation un usage)
+Does your system once in a while need to have a downtime due to maintenance? ( In combination of fluctuation in usage)
 How important is it for your organization that the end users don't experience any performance issues and will be the first to call the IT-department?
-All answered that they need these to a sertain degree. 
-Acording to the artical there are avantages to having monitoring system. Get visibility of all of your hardware and software assets,
+All answered that they need these to a certain degree. 
+According to the article there are advantages to having monitoring system. Get visibility of all of your hardware and software assets,
 to get statistics when the best time to have downtime due to maintenance.
-And ofcourse to avoid the end user calling the IT-department.
+And of-course to avoid the end user calling the IT-department.
 
 ## Consequence of running in the dark 
 Neglecting your system can either result in no changes or critical failures, however knowing if either case applies is impossible to quantify, as you won't know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the system's lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things take focus in their work, but the worst case is developers too arrogant about their abilities to make "flawless" systems that they see no need to pay a close eye on their fully functional work.   
