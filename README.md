@@ -11,17 +11,16 @@
 ## Running in the dark 
 Running in the dark is a made up term which describes the problem that is, to do something without observing. Running a system without monitoring is like riding a caravan. You have a vague idea of what direction you want your system to go in, and you have a feeling that it's going there as your running it. But imagine you were deaf to the horses complaining, unable to notice the horses slowed down, and you only would notice when they collapsed on the floor. The wheel on the wagon can break but the wagon can still run if there's enough support, but all these parts that can wear and tear can break at any moment without you knowing when or why. If you don't know what parts are slowing down or breaking you'll never react, but at the same time all parts could also run longer than the system is supposed to run, and then you'll never notice if paying attention was needed at all. 
  
-### What does IT-professionals out there say about running in the dark? 
-Before starting the Large System Development course we personally were in "the dark" when it comes to monitoring IT-systems Runtime, Application and data.
-In this course we were introduced to the tools Prometheus for collecting metrics and Grafana for visualising and monitoring. 
-We were curious to know if others are up to date with these tools. If they take the time and effort to do monitoring of their IT-systems? Do they get the insight they want?
+## What does IT-professionals out there say about running in the dark? 
+Before starting the Large System Development course we personally were in "the dark" when it came to monitoring IT-systems.
+During the course we were introduced to the tools Prometheus for collecting metrics and Grafana for visualising and monitoring which we all thought were very usefull to us. 
+We were curious to know wheather others take the time and effort to do monitoring of their IT-systems? Do they get the insight they want?
 As we are new to this topic it's easy to get enthusiastic. Who wouldn't want to monitor and peak into every part of the IT-system?
-Having knowledge is key right?
-//We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? How much insight does monitoring system give? We made a poll on a [Facebook group](https://www.facebook.com/groups/utvecklare.stockholm/about/) of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes. 
+//We wanted to see what developers working in IT-companies think of implementing monitoring and metrics in their IT-systems. Do they have it implemented why and why not? Are they running in the dark? 
+How much insight does monitoring system give? We made a poll on a [Facebook group](https://www.facebook.com/groups/utvecklare.stockholm/about/) of 13247 coders many of whom work as software developers in Sweden. We got more than 70 votes. 
 The way we went forward getting answers to our questions was asking those questions in our own network of professionals in the field. 
 
 
-As part of a closed Facebook group where topics are discussed centred around code and IT-related topics. The group calls them self (IT nerds).
 
 The we also sent out a survey to people we knew worked within IT in our network (Facebook and LinkedIn)
 
@@ -96,8 +95,7 @@ For those having monitoring systems implemented we asked which part of the syste
  
 *¤When writing this blog post only 8 professionals have taken the survey. The statistics will be updated. [Full survey](images/survey_results.pdf)* 
 
-### Conclusion from poll and survey
-When does Monitoring depending on project - conclusion from the survey
+### When does Monitoring depending on project - conclusion from the survey
 There are sertain projectors where monitoring is a best practise. 
 For example control intensive application. If you have made risk assessments that indicates. 
 The where also best practise to use micro services and large systems.
