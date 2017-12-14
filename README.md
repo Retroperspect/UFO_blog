@@ -26,10 +26,10 @@ The question in the poll was:
  
 **Do you use monitoring and metrics ( with tools like New Relic, Grafana/Kibana) to the extent that you want in your IT systems? 
 Although there are "only advantages" to have it implemented for both small and large systems. I suspect that it might not be implemented (in IT systems) for some reasons.** 
-- Both yes and no. It depends on the project. (40 votes)  
-- Yes. We always use monitoring and have full control of what is going on in our IT systems. (21 votes) 
-- No. We don't use monitoring but it would probably be good. (12 votes) 
-- No. We manage without. (2 votes) 
+- Both yes and no. It depends on the project. (50 votes)  
+- Yes. We always use monitoring and have full control of what is going on in our IT systems. (28 votes) 
+- No. We don't use monitoring but it would probably be good. (17 votes) 
+- No. We manage without. (3 votes) 
 - No. We don't use monitoring because it made more damage than good. (1 vote) 
  
 The reason for "only advantages" was that we were little sceptic to [Mutiny's 6 reasons](https://www.mutiny.com/news/blogs/2016/6-reasons-why-IT-monitoring-and-reporting-is-important-to-your-business/) bias to monitoring.
@@ -59,7 +59,7 @@ We also did a survey to get more answers on how monitoring is used in IT-compani
  
 The survey was targeting professionals working within IT-companies.¤  
 In our survey 75% says that they use some kind of monitoring systems like Grafana/Kibana etc. 
-For those saying they don't use monitoring system "Lack of time" (3 in total) was the main reason why they haven’t implemented it. 
+For those saying they don't use monitoring system "Lack of time" was the main reason why they haven’t implemented it. 
 For those using monitoring 50% says they have been involved implementing monitor systems in their company. 
  
 On the question: Have your IT-system ever gone down or not functioned correctly without your knowledge? 50% using monitors systems say yes. 100% not using monitor systems answer positively to this question. 
