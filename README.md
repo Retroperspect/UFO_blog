@@ -66,7 +66,8 @@ On the question: Have your IT-system ever gone down or not functioned correctly 
  
 #### How much insight would you say monitoring give to your IT-system? 
  
-[![https://gyazo.com/a2a08275bd63f29522a4c2d6dc99db6e](https://i.gyazo.com/a2a08275bd63f29522a4c2d6dc99db6e.png)](https://gyazo.com/a2a08275bd63f29522a4c2d6dc99db6e)
+
+[![https://gyazo.com/6f35ef8c42c7071c2145396307a2271b](https://i.gyazo.com/6f35ef8c42c7071c2145396307a2271b.png)](https://gyazo.com/6f35ef8c42c7071c2145396307a2271b)
  
 *To the left - no insight. To the right - 100% insight.* 
  
@@ -75,8 +76,7 @@ On the question: Have your IT-system ever gone down or not functioned correctly 
 Of those using monitor system 50% say they experience no negative impact having it implemented. 
 50% answers it has some negative impact. 
  
-
-[![https://gyazo.com/6b9bb280f54f199592bdd46c06cf4f13](https://i.gyazo.com/6b9bb280f54f199592bdd46c06cf4f13.png)](https://gyazo.com/6b9bb280f54f199592bdd46c06cf4f13)
+[![https://gyazo.com/ba4d120e6cdbd84367d008c00c9a5671](https://i.gyazo.com/ba4d120e6cdbd84367d008c00c9a5671.png)](https://gyazo.com/ba4d120e6cdbd84367d008c00c9a5671)
  
 *To the left some negative impact. To the right no negative impact.* 
  
@@ -85,9 +85,10 @@ Giving the reason "overhead in maintenance", "extra overhead" and "risk sending 
 For those having monitoring systems implemented we asked which part of the system they thought was the most important to monitor: 
  
 
-[![https://gyazo.com/6c5f35e5ca81aae4502bde08042e6122](https://i.gyazo.com/6c5f35e5ca81aae4502bde08042e6122.png)](https://gyazo.com/6c5f35e5ca81aae4502bde08042e6122)
- 
-*¤When writing this blog post only 8 professionals have taken the survey. The statistics will be updated. [Full survey](images/survey_results.pdf)* 
+[![https://gyazo.com/bb09240ae46eb529ce6cc2a4fbc07aae](https://i.gyazo.com/bb09240ae46eb529ce6cc2a4fbc07aae.png)](https://gyazo.com/bb09240ae46eb529ce6cc2a4fbc07aae)
+
+
+*¤When writing this blog post only 11 professionals have taken the survey. [Full survey](images/survey_results.pdf)* 
 
 ### When does Monitoring depending on project - conclusion from the survey
 Making a risk assessments IT-system might be a good way of indicating if monitoring adds value in relation to cost. 
