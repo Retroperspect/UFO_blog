@@ -3,14 +3,20 @@
  
 ## Abstract 
  
-- System Failure is a common issue related to human errors, The biggest errors are the ones you don't even realize are happening, as some system failures aren't so obvious to notice unlike the entire system is dead while you are interacting with it, if this happened before anyone touched the system you wouldn't know when the issue appeared depending on your implementation of the system. 
-- Customers hate paying for broken promises, and corporations hate losing customers and money on fixing these issues whenever they creep up. Likewise depending on how crucial the system is for human lives, a system failure could lead to injury or even loss of human lives. 
-- You can reduce or even eliminate these problems by implementing monitoring for your system, using systems like Prometheus and grafana, enables the developers to specify and monitor every angle of a system, enabling you to identify current and new problems that appear as you develop your systems. 
-- Monitoring your systems ensures your ability to respond when the system is starting to experience issues or even alert you the moment the system reaches critical or none functional states. This enables better testing of the system and increases both user and corporations satisfaction. 
+- Many system are breaking down or not functioning correctly without anyone knowing!
+- This leads to angry customers and disappointed developers, and monetary loose.
+- But by using prometheus in conjuction with grafana will solve this problem!
+- It will help to monitor every inch of a system, and provide real time insight for developers in what the system is actully doing at all time
  
 ## Running in the dark 
 Running in the dark is a made up term which describes the problem that is, to do something without observing. Running a system without monitoring is like riding a caravan. You have a vague idea of what direction you want your system to go in, and you have a feeling that it's going there as your running it. But imagine you were deaf to the horses complaining, unable to notice the horses slowed down, and you only would notice when they collapsed on the floor. The wheel on the wagon can break but the wagon can still run if there's enough support, but all these parts that can wear and tear can break at any moment without you knowing when or why. If you don't know what parts are slowing down or breaking you'll never react, but at the same time all parts could also run longer than the system is supposed to run, and then you'll never notice if paying attention was needed at all. 
  
+ ## Consequence of running in the dark 
+Neglecting your system can either result in no changes or critical failures, however knowing if either case applies is impossible to quantify, as you won't know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the system's lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things take focus in their work, but the worst case is developers too arrogant about their abilities to make "flawless" systems that they see no need to pay a close eye on their fully functional work.   
+Whatever your reasoning may be, it's important to remember that we as humans are prone to produce errors, and it's in our best interest to pay close attention to our own mistakes, so we can avoid problems with our systems. 
+
+Another consequence is if you have a agreement with another company it is important to be able to prove their requirements are meet. Without being able to observce if the requirements are meet, you will not be able to prove it. This is typically important if a Service level agreement has been made. Then it is especially important to be able to prove their requirements are meet, which is very hard if not observed.
+
 ## What does IT-professionals out there say about running in the dark? 
 Before we were introduced to Prometheuss and Grafana in the Large System Development course we were in "the dark" when it came to monitoring IT-systems.
 We were curious to know what developers working in IT-companies have monitoring implemented why and why not? Are they running in the dark? 
@@ -96,12 +102,6 @@ Micro services and large systems are some systems we talked about during the cou
 From the survey we can conclude that from those scaling their IT-system as a Large System 100% use monitoring system.
 Not everyone using monitor system scale their system as a Large system.
 From those that say they don't use monitoring systems they scale their IT-system as medium large.
-
-## Consequence of running in the dark 
-Neglecting your system can either result in no changes or critical failures, however knowing if either case applies is impossible to quantify, as you won't know until you pay attention to the system, some developers feel it's not worth paying attention to the system, as the system's lifespan is too short or simple to require such care. Others believe they don't have enough time to pay attention as other things take focus in their work, but the worst case is developers too arrogant about their abilities to make "flawless" systems that they see no need to pay a close eye on their fully functional work.   
-Whatever your reasoning may be, it's important to remember that we as humans are prone to produce errors, and it's in our best interest to pay close attention to our own mistakes, so we can avoid problems with our systems. 
-
-Another consequence is if you have a agreement with another company it is important to be able to prove their requirements are meet. Without being able to observce if the requirements are meet, you will not be able to prove it. This is typically important if a Service level agreement has been made. Then it is especially important to be able to prove their requirements are meet, which is very hard if not observed.
  
 ## Solution 
 There are more ways to solve this specific issue, but the most common and standard way in the industry is by doing real-time monitoring. Monitoring can be set up with real-time logging with the help of an example: [ELK stack](https://www.elastic.co/webinars/introduction-elk-stack) or capturing important metrics. 
